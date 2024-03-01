@@ -5,13 +5,21 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+.signup_text{
+    color: white;
+}
+
+.Sign{
+    color: black;
+}
 body{
   margin: 0 auto;
   padding: 0;
   background: linear-gradient(120deg,#01fe87, #8e44ad);
   height: 100vh;
   overflow: hidden;
-  width: 90%;
+  width: 85%;
 }
 .center{
   position: absolute;
@@ -90,7 +98,7 @@ input[type="submit"]{
   background: #01fe87;
   border-radius: 25px;
   font-size: 18px;
-  color: #e9f4fb;
+  color: #252839;
   font-weight: 700;
   cursor: pointer;
   outline: none;
